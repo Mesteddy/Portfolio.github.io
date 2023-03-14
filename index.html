@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Portfolio of Tedros Tsegay</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- animate.css for animations -->
+  <link rel="stylesheet" href="./css/animate.css">
+
+  <!-- animate on scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container" id="navbarContainer">
+        <div class="row">
+          <div class="col-sm-8 col-md-8 py-4" id="navbarAbout">
+            <h4 class="text-white">About Me</h4>
+            <p>
+              Hi, I am freshly graduating CS Degree holder ready to become a software engineer.
+              In my previous work experience, ranging from HR, front desk, to QA, Aerospace Manufacturing, 
+              I have grown to be a person who is able to solve problems and create solutions.
+              I have a passion for learning and constantly learning new things.
+              This sort of mindset is something that is very valuable when I am designing, implementing, and delivering production code.
+              While problem-solving is something that I excel at, I am also not afraid to learn from others and take on new challenges. 
+              I am also a very quick learner, which is a highly desirable in a junior developer.
+              I dive into my work with a single-minded tenacity, performing research and implementing technologies needed to fulfill the mission. 
+              This not only helps me become a better engineer, but it also helps me understand how to contribute most value for the team.
+            </p>
+          </div>
+
+          <img class="portrait col-md-2 py-4" src="./assets/images/portrait2.jpg" alt="Self Portrait">
+
+          <div class="col-sm-2 py-4" id="navbarContact">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><i class="fa-brands fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/tedros-tsegay-8499a4140">LinkedIn</a>
+              </li>
+              <li><i class="fa-brands fa-github"></i> <a href="https://github.com/ttsega06">GitHub</a></li>
+              <li><i class="fa-brands fa-google"></i> <a href="mailto:ttsega03@gmail.com" target="_top">Email</a></li>
+              <li><i class="fa-solid fa-file-lines"></i> <a href="resume.html">Resume</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <div class="navbar-brand d-flex align-items-center">
+          <i class="fa-solid fa-laptop"></i>
+          <strong>&ensp;Portfolio of Tedros Tsegay</strong>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="bg-dark">
+
+    <!-- Showdcase Section -->
+
+    <section data-aos="fade" data-aos-duration="1500" class="showcase">
+      <div class="video-container">
+        <video src="./assets/video/bg-loop-compressed.mp4" autoplay muted loop type="video/mp4"></video>
+      </div>
+      <div class="container content">
+        <div class="row row-cols-auto row-cols-sm-1 row-cols-md-1 mx-auto" id="about">
+          <div class="col">
+            <h2 class="animate__animated animate__bounce text-white text-responsive-h2">TEDROS TSEGAY </h2>
+            <h3 class="text-light text-responsive-h3">Software Engineer</h3>
+            <h4 class="text-light text-responsive-h4">
+              Tech-focused engineer and a newly earneing BS in Computer Science from Bellevue College.
+              Experience with full-stack development, DevOps, cloud computing, machine learning, and data science.<br><br>
+              Seeking interesting engineering challenges that span the physical and digital
+              world, with future goals of using tech for environmental restoration.
+            </h4>
+            <div class="about-btn-group">
+              <!-- <a href="https://www.linkedin.com/in/kw0225/" class="header-button btn btn-outline-success my-2 text-white"><i
+                  class="fa-brands fa-linkedin-in"></i>&ensp;LinkedIn</a> -->
+              <!-- <button type="button" id="linkedin" class="header-button btn btn-outline-success my-2 text-white" data-buttonlink="https://www.linkedin.com/in/tedros-tsegay-8499a4140"><i
+                class="fa-brands fa-linkedin-in"></i>&ensp;LinkedIn</button> -->
+
+                <button type="button" id="linkedin" class="header-button btn btn-outline-success my-2 text-white" data-buttonlink="https://www.linkedin.com/in/tedros-tsegay-8499a4140"><i 
+                  class="fa-brands fa-linkedin-in"></i> LinkedIn</button>
+              <!-- <a href="https://github.com/kylewhite0225" class="header-button btn btn-outline-success my-2 text-white"><i
+                  class="fa-brands fa-github"></i>&ensp;GitHub</a> -->
+              <!-- <button type="button" id="github" class="header-button btn btn-outline-success my-2 text-white" data-buttonlink="https://github.com/ttsega06"><i
+                class="fa-brands fa-github"></i>&ensp;GitHub</button> -->
+              <!-- <a href="resume.html" class="header-button btn btn-outline-success my-2 text-white"><i
+                  class="fa-solid fa-file-lines"></i>&ensp;Resume</a> -->
+              <button type="button" id="resume" class="header-button btn btn-outline-success my-2 text-white"><i
+                class="fa-solid fa-file-lines"></i>&ensp;Resume</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End Showcase Section -->
+
+    <!-- Work Section -->
+
+    <div class="work py-5 bg-dark">
+      <div class="container my-5 py-5">
+        <h2 data-aos="fade-right" data-aos-duration="500">WHAT I DO</h2>
+        <div class="row row-cols-auto row-cols-sm-2 row-cols-md-3 g-3 my-4">
+
+          <div data-aos="fade-right" data-aos-duration="500" class="work-section">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fas fa-gears"></i>
+              </div>
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">Design</h3>
+              <p>
+                I have a very solid understanding utilizing both 
+                concrete and abstract data structures to solve
+                simple and advanced software engineering 
+                problems prevalent in the industry.
+                As well as using Object-Oriented Programming principles 
+                like Polymorphism, Inheritance, Abstraction, and 
+                Encapsulation to solve problems in a quick and efficient manner.
+              </p>
+            </div>
+          </div>
+
+          <div data-aos="fade-right" data-aos-duration="500" class="work-section">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">Develop</h3>
+              <p>
+                I am proficient in programming languages such
+                as OOP JAVA,C++, and Python. Web app development using HTML,CSS,JavaScript,and React.
+                Relational and MySQL database experience using a variety of services and clients.
+                Experience with Raspberry Pi, Arduino, and other IOT devices. 
+                I have a solid understanding of these program paradigms and their strengths and weaknesses. 
+                I constantly strive to improve my knowledge of leading technologies and their uses in order 
+                to develop programs in the most efficient way.
+              </p>
+            </div>
+          </div>
+
+          <div data-aos="fade-right" data-aos-duration="500" class="work-section">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa-solid fa-tree"></i>
+              </div>
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">Deliver</h3>
+              <p>
+                I regularly do research on my own time as 
+                software engineer is something that I am passionate about. 
+                When given a project, I dive deep into it, 
+                I own the project and work towards its completion 
+                utilizing research methods to find the best implementation, 
+                as well as good problem solving techniques and troubleshooting skills 
+                to root out discrepancies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Work Section -->
+
+    <!-- NCRP Section -->
+
+    <!-- <div class="capstone py-5 bg-dark">
+
+      <div data-aos="fade-left" data-aos-duration="1000" class="container">
+        <h1 class="text-white">CAPSTONE PROJECT</h1>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 card-container">
+          <div class="col">
+            <div class="card dark-card shadow-sm">
+
+              <img src="./assets/images/software/tree-ncrp-logo-solid-green-border-wide.png" alt="NCRP LOGO" class="rounded-top">
+              <div class="card-body">
+                <p class="card-text">
+                  Negative Carbon Reforestation Project (NCRP) was born from the desire
+                  to use modern technology for environmental restoration. Click Mission to learn more.
+                </p>
+                <div class="btn-group-container">
+                  <div class="btn-group">
+                    <div class="btn-container">
+                      <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#mission">Mission</button>
+                    </div>
+                    <div class="btn-container"> -->
+
+
+                      <!-- <a type="button" class="btn btn-success" href="https://ncrp.app" target="_blank">
+                        Website
+                      </a> -->
+
+
+                      <!-- <button type="button" id="ncrpbutton" class="btn btn-success">Website</button>
+                    </div>
+                    <div class="btn-container"> -->
+
+
+                      <!-- <a type="button" class="btn btn-success"
+                        href="https://github.com/Negative-Carbon-Reforestation-Project" target="_blank">
+                        GitHub
+                      </a> -->
+
+
+
+                      <!-- <button type="button" id="ncrpgithubbutton" class="btn btn-success">GitHub</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Mission Modal -->
+      <div class="modal fade" id="mission" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">NCRP Mission</h5>
+            </div>
+            <div class="modal-body" id="capstone-modal">
+              <p>
+                Forest ecosystems are critical to the health of the planet and therefore our own. They play an important
+                role in climate, water retention, temperature regulation, and ecosystem services such as clean water, air,
+                and the protection of biodiversity. Unfortunately, forests throughout the world are being destroyed and
+                damaged on a daily basis due to human developments such as urban sprawl, fragmentation, and forest product
+                extraction.<br><br>
+                
+                The Pacific Northwest is home to some of the most beautiful and intact forest ecosystems in the
+                continental US. However,
+                <a className="mission-study-link" href="https://pubmed.ncbi.nlm.nih.gov/16903097/" target="_blank"
+                  rel="noreferrer"> according to a study on the status of old-growth forests in the Pacific
+                  Northwest</a>,
+                72% of the original old-growth conifer forests have been lost through logging and other human
+                developments. Forest preservation has a new urgency as a crucial defense against climate disruption that
+                poses catastrophic risks for both the natural world and humanity.
+              </p>
+              <p>
+                We understand that technology cannot take the place of hands in the earth, but it can serve to empower
+                those involved. We've developed a platform that utilizes convolutional neural networks and data science
+                to help identify potential locations for successful reforestation – assisting those involved by reducing
+                time and cost.
+              </p>
+              <p>
+                We hope that through the use of our software, we can help Washington remain green for decades to come.
+              </p>
+
+              Technologies include:
+              <li>OpenLayers</li>
+              <li>GeoServer</li>
+              <li>OpenSearch/ElasticSearch</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>ReactJS</li>
+              <li>Python for ML and Data Science</li>
+              <li>Tensorflow for ML</li>
+              <li>Ray for Serving the ML Model</li>
+              <li>SpringBoot for Serving the Web Application</li>
+              <li>Amazon Web Services</li>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- End NCRP Section -->
+
+    <!-- Software Portfolio -->
+
+    <!-- <div class="album py-5 bg-dark">
+      <div class="container">
+        <h1 data-aos="fade-right" data-aos-duration="500" class="text-white">SOFTWARE PORTFOLIO - Highlights</h1>
+        <div id="software-portfolio-container"> -->
+          <!-- Software Portfolio Cards -> populate.js -->
+        <!-- </div>
+      </div>
+    </div> -->
+
+    <!-- End Software Portfolio -->
+
+    <!-- Software Technologies -->
+
+    <div class="tech py-5 bg-black">
+      <div class="container">
+        <h2 data-aos="fade-left" data-aos-duration="500" class="text-white aos-init">LANGUAGES &amp; TECHNOLOGIES</h2>
+        <div id="software-section-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <!-- Technology Cards -> populate.js -->
+        <!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/java-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 0% 0%"><title>Java Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">Java</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#javamodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+      <!-- Modal -->
+			<div class="modal fade" id="javamodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+						</div>
+						<div class="modal-body">
+							Object-oriented programming in Java, including command line (CLI) applications, database applications, simple algorithms, and API adapters.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/Csharp_Logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 17% 0%"><title>.NET Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">.NET / C#</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#netmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="netmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">.NET / C# Experience</h5>
+						</div>
+						<div class="modal-body">
+							Object-oriented programming experience in C#, with a focus on cloud, cloud-hybrid, and cloud-interfacing applications with Amazon Web Services. Some of these applications are featured in my Software Portfolio section.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Kyle White_files/cplus-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 34% 0%"><title>C++ Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">C++</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#cplusmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+      <!-- Modal -->
+			<div class="modal fade" id="cplusmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">C++ Experience</h5>
+						</div>
+						<div class="modal-body">
+							Object-oriented programming experience in C++. My data structures course was instructed in C++
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/python-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 51% 0%"><title>Python Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">Python</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#pythonmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="pythonmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">Python Experience</h5>
+						</div>
+						<div class="modal-body">
+							Machine learning, statistics, data science, and simple scripting tools using Python.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/n-react-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 0% 30%"><title>React Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">React</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#reactmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+      <!-- Modal -->
+			<div class="modal fade" id="reactnativemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">React Experience</h5>
+						</div>
+						<div class="modal-body">
+							Basic cross-platform Android/iOS app development using React Native,
+              including my simple Focus Time app.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/JavaScript-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 34% 30%"><title>JS Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">JavaScript</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#jsmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+      <!-- Modal -->
+			<div class="modal fade" id="jsmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">JavaScript Experience</h5>
+						</div>
+						<div class="modal-body">
+							JavaScript experience mainly constrained to web applications
+               (including this website), React, and React Native applications, 
+               including Node.js for package management, version management, and 
+               dependency management.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/htmlcss-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 34% 60%"><title>HTML/CSS Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">HTML / CSS</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#htmlcssmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="htmlcssmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">HTML / CSS Experience</h5>
+						</div>
+						<div class="modal-body">
+							I built this website! Bootstrap elements were utilized for 
+              modularity, many of which were populated using JavaScript and
+              data stored in JSON. CSS was utilized for styling and for 
+              responsive design which helps adjust and scale components for
+               different screen sizes.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" 
+              data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+      <!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/aws-light-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 0% 90%"><title>AWS Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">AWS</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#awsmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="awsmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">AWS Experience</h5>
+						</div>
+						<div class="modal-body">
+							Amazon Web Services utilized include S3, EC2, Lambda, Simple Queue Service, Simple Notification Service, Rekognition, Textract, Translate, Cloud Watch, Database Services (RDS, NoSQL), Event Bridge, Amplify, etc.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+      <!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/database-centered-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 17% 90%"><title>Databases Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">Database Systems</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#dbmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="dbmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">Database Systems Experience</h5>
+						</div>
+						<div class="modal-body">
+							Database management and application development with relational 
+              database technologies such as MySQL and PostgreSQL, and NoSQL 
+              database technologies such as MongoDB and AWS DynamoDB.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+
+
+			<!-- Software Card -->
+			<div data-aos="fade-left" data-aos-duration="500" class="col aos-init">
+				<div class="card dark-card shadow-sm">
+					<img src="./Portfolio of Tedros Tsegay_files/iot-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 34% 90%"><title>IOT Logo</title><rect width="100%" height="100%" fill="#55595c">
+					<div class="card-body">
+						<p class="card-text">IoT Devices</p>
+						<!--
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#iotmodal">More Info</button>
+							</div>
+						</div>
+						-->
+					</div>
+				</rect></div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="iotmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">IoT Device Experience</h5>
+						</div>
+						<div class="modal-body">
+							Arduino, Raspberry Pi, and various sensors and modules that interact with these devices such as ESP32 and NodeMCU development boards, LEDs, motor controllers, etc.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div></div>
+      </div>
+    </div>
+    <!-- End Software Technologies -->
+
+    <!-- Mechanical Portfolio -->
+
+    <!-- <div class="album py-5 bg-dark">
+      <div class="container">
+        <h1 data-aos="fade-right" data-aos-duration="500" class="text-white">MECHANICAL PORTFOLIO</h1>
+        <div id="mech-portfolio-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> -->
+          <!-- Mechanical Portfolio Cards -> populate.js -->
+        <!-- </div>
+      </div>
+    </div>
+
+  </main> -->
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back To Top</a>
+      </p>
+      <p class="mb-1">
+        This portfolio was built using Bootstrap elements,
+        HTML, CSS, jQuery, and JavaScript plugins for animations.
+        Modular (sections with repeating card elements) automation
+        was handled with JavaScript and JSON.<br><br>
+        <!-- Have a problem with rendering or scaling? <a
+          href="https://github.com/kylewhite0225/portfolio-website/issues">Create an issue on GitHub!</a> Please include
+        a screenshot and your device, operating system, browser, and resolution. -->
+      </p>
+      <p class="mb-0"></a></p>
+    </div>
+  </footer>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/17831ee8c5.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- jQuery script for obtaining window height for Safari compatibility -->
+  <script type="text/javascript">
+    $(".showcase").height(($(window).height() / 100) * 45);
+    $(".capstone").height(($(window).height() / 100) * 45);
+  </script>
+
+  <!-- Animate on Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- populate.js -> populates repeat sections from json -->
+  <script type="text/json" src="./js/data.json"></script>
+  <script type="text/javascript" src="./js/populate.js"></script>
+
+  <!-- Bootstrap button link handling -->
+  <script type="text/javascript" src="./js/buttons.js"></script>
+
+</body>
+
+</html>
